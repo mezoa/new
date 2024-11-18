@@ -9,7 +9,8 @@
     "deploy": "vercel --prod",
     "login": "vercel login",
     "logout": "vercel logout",
-    "fix-login": "vercel login"
+    "fix-login": "vercel login",
+    "vercel-build": "npm run build"
   },
   "devDependencies": {
     "vite": "^4.0.4"
