@@ -10,7 +10,8 @@
     "login": "vercel login",
     "logout": "vercel logout",
     "fix-login": "vercel login",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "postinstall": "chmod +x node_modules/.bin/vite"
   },
   "devDependencies": {
     "vite": "^4.0.4"
